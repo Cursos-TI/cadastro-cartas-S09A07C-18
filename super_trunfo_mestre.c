@@ -142,15 +142,34 @@ float soma_1 = populacao_para_f1 + area_1 + PIB_1 + pontos_turisticos_f1 + PIB_p
 float Super_Poder_1 = soma_1;
 
 
+//Testes  
+
+printf("------Testes------ \n");
+printf("Inverso da Densidade Populacional 1: %f \n", inverso_dp1);
+printf("População 1 em float: %f \n", populacao_para_f1);
+printf("PIB per Capita:%.2f reais\n", PIB_per_Capita_1);
+printf("-Área:%.2f km²\n", area_1);
+printf("-PIB:%.2f bilhões de reais\n", PIB_1);
+printf("-Número de pontos turísticos:%d\n", pontos_turisticos_1);
+printf(" \n \n");
+printf("Super poder: %.2f \n", Super_Poder_1);
+printf(" Soma: %f + %.2f + %.2f + %f + %.2f  + %.2f \n", populacao_para_f1, area_1, PIB_1, inverso_dp1, PIB_per_Capita_1, pontos_turisticos_f1);
+printf("Resultado da soma: %.2f \n", soma_1);
+
+
+
+
+
+
 // Saída de Teste  da Carta 1
 
-printf("-População:%lu\n", populacao_1);
+/*printf("-População:%lu\n", populacao_1);
 printf("-Área:%.2f km²\n", area_1);
 printf("-PIB:%.2f bilhões de reais\n", PIB_1);
 printf("-Número de pontos turísticos:%d\n", pontos_turisticos_1);
 printf("Densidade Populacional:%.2f hab/km²\n", densidade1);
 printf("PIB per Capita:%.2f reais\n", PIB_per_Capita_1);
-printf("Super Poder: %.f \n", Super_Poder_1);
+printf("Super Poder: %.f \n", Super_Poder_1);*/
 
 
 
