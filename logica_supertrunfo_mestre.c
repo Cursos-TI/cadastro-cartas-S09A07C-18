@@ -364,7 +364,7 @@
               } else if(comparacao_populacao1==1 && comparacao_area1==1||comparacao_populacao2==1&& comparacao_area2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu!",cidade2);                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                       //Mostra que Carta 2 venceu                                           
 
               
         
@@ -375,13 +375,13 @@
               soma4= populacao2+(int)PIB2;                                                      // soma populacao2 e PIB2 convertendo PIB2 para int
               printf("Soma dos atributos da Carta 1:%d\n",soma3);                              // Mostra a soma dos atributos da carta 1
               printf("Soma dos atributos da Carta 2:%d\n ",soma4);                            // Mostra a soma dos atributos da carta 2        
-              if(comparacao_igual_p1 != comparacao_igual_P1 ||comparacao_igual_p2 != comparacao_igual_P2)            //Se a  carta 1 um ganhou uma comparação e perdeu a outra    e o mesmo com a carta 2                                  
+              if(comparacao_igual_p1 != comparacao_igual_P1 ||comparacao_igual_p2 != comparacao_igual_P2){            //Se a  carta 1 um ganhou uma comparação e perdeu a outra    e o mesmo com a carta 2                                  
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
               } else if(comparacao_populacao1 ==1 && comparacao_PIB1==1||comparacao_populacao2==1&& comparacao_PIB2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu!",cidade2);                            //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2); }                           //Mostra que Carta 2 venceu                                           
 
               
 
@@ -402,7 +402,7 @@
               } else if(comparacao_populacao1 ==1 && comparacao_pontos1==1||comparacao_populacao2==1&& comparacao_pontos2==1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s)venceu!",cidade1);
              } else {                                                                //Se não
-                  printf("Carta 2 (%s) venceu!",cidade2);  }   }                       //Mostra que Carta 2 venceu                                           
+                  printf("Carta 2 (%s) venceu!",cidade2);  }                          //Mostra que Carta 2 venceu                                           
 
 
 
