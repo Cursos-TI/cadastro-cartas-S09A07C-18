@@ -124,7 +124,7 @@
 
     printf("PIB 1:%.2f bilhões de reais\n",PIB2);                           //Mostra a palavra PIB e o valor dela 
  
-    printf("Número de pontos turísticos:%d\n",pontos_turisticos2);        //Mostra a palavra Números de pontos turísticos
+    printf("Número de pontos turísticos:%d\n",pontos_turisticos2);               //Mostra a palavra Números de pontos turísticos
 
     printf("Densidade populacional:%.2f hab/km² \n",densidade_populacional2);  //Mostra a expressão densidade populacional e o seu valor 
   
