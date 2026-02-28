@@ -25,12 +25,18 @@ float PIB_2;
 int pontos_turisticos_2;
 
 
-
-//Solicitei só os dados númericos 
-//Solicita ao usuário os dados da Carta 1, imcompleto armazenando os valores nas variavéis correspondente,
+//Solicita ao usuário os dados da Carta 1, armazenando os valores nas variavéis correspondentes ok 
 
 printf("Insira os dados da Carta 1.  \n");
 
+printf("Digite a letra do Estado: \n");
+scanf("  %c", &Estado_1);
+
+printf("Digite o código da carta 1: \n");
+scanf("  %s", codigo_1);
+
+printf("Digite o nome da cidade:  \n");
+scanf("  %s", nome_cidade_1);
 
 printf("Digite o número da população: \n");
 scanf("%lu", &populacao_1);
@@ -46,9 +52,18 @@ scanf("%d", &pontos_turisticos_1);
 printf("\n \n");
 
 
-//Solicita ao usuário dados da Carta 2,  só os valores númericos armazenando os valores nas variavéis relacionadas
+//Solicita ao usuário dados da Carta 2, armazenando os valores nas variavéis relacionadas
 
 printf("Insira os dados da Carta 2.  \n");
+
+printf("Digite a letra do Estado: \n");
+scanf("  %c", &Estado_2);
+
+printf("Digite o código da carta 2: \n");
+scanf("  %s", codigo_2);
+
+printf("Digite o nome da cidade:  \n");
+scanf("  %s", nome_cidade_2);
 
 printf("Digite o número da população: \n");
 scanf("%lu", &populacao_2);
@@ -168,17 +183,48 @@ int comparacao7_SuperP = Super_Poder_1 > Super_Poder_2;
 
 
 
+
+
+// Imprimi os dados da Carta 1, ok 
+
+printf("--------Carta 1-------- \n");
+printf("-Estado:   %c\n", Estado_1);
+printf("-Código:   %s\n", codigo_1);
+printf("-Nome da cidade:   %s\n", nome_cidade_1);
+printf("-População:%lu \n", populacao_1);
+printf("-Área:%.2f km²\n", area_1);
+printf("-PIB:%.2f bilhões de reais\n", PIB_1);
+printf("-Número de pontos turísticos:%d\n", pontos_turisticos_1);
+printf("Densidade Populacional:%.2f hab/km²\n", densidade1);
+printf("PIB per Capita:%.2f reais\n", PIB_per_Capita_1);
+
+
+
+//Imprimi os dados da Carta 2, ok
+
+printf("------Carta 2------ \n");
+printf("-Estado:   %c\n", Estado_2);
+printf("-Código:   %s\n", codigo_2);
+printf("-Nome da cidade:   %s\n", nome_cidade_2);
+printf("-População:%lu\n", populacao_2);
+printf("-Área:%.2f km²\n", area_2);
+printf("-PIB:%.2f bilhões de reais\n", PIB_2);
+printf("-Número de pontos turísticos:%d\n", pontos_turisticos_2);
+printf("Densidade Populacional:%.2f hab/km²\n", densidade2);
+printf("PIB per Capita:%.2f reais\n", PIB_per_Capita_2);
+
+
 // Printa o resultado das comparações 
 
 printf("--------Comparação de Cartas--------  \n");
-
-printf("População: Carta 1 venceu (%d) \n", comparacao1_populacao);
+printf("População: Carta 2 venceu (%d) \n", comparacao1_populacao);
 printf("Área: Carta 1 venceu (%d) \n", comparacao2_area);
 printf("PIB : Carta 1 venceu (%d)\n", comparacao3_PIB);
 printf("Pontos Turísticos: Carta 1 venceu (%d) \n", comparacao4_pontosturis);
 printf("Densidade Populacional: Carta 1 venceu (%d) \n", comparacao5_DP);
 printf("PIB per Capita: Carta 1 venceu (%d)\n", comparacao6_perCapita);
 printf("Super Poder : Carta 1 venceu (%d) \n", comparacao7_SuperP);
+
 
 
 return 0;
