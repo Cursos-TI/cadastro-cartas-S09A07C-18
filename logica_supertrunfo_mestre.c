@@ -350,10 +350,10 @@
         break;
        }}
 
-         printf("\n \n");                                                        //Faz um espaçamento
+         printf("\n \n");                                                                                //Faz um espaçamento
 
         
-         if(escolha1==1 && escolha2 ==2|| escolha1==2 && escolha2==1){                                 //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 2 ou 2 e 1  
+         if(escolha1==1 && escolha2 ==2 || escolha1==2 && escolha2==1){                                 //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 2 ou 2 e 1  
               soma1= populacao1 +(int)area1;                                                          //se sim soma populacao1 a area1 
               soma2= populacao2+(int)area2;                                                          // soma populacao2 e area2
               printf("Soma dos atributos da Carta 1:%d\n",soma1);                                   // Mostra a soma dos atributos da carta 1
@@ -361,16 +361,16 @@
               if(comparacao_igual_p1 !=  comparacao_igual_a1||comparacao_igual_p2 != comparacao_igual_a2) {           //Se a  carta 1 um ganhou uma comparação e perdeu a outra  e o memso com a carta 2                                   
                  printf("Empate!") ;                                                                                             //Mostra Empate
                 
-              } else if(comparacao_populacao1==1 && comparacao_area1==1||comparacao_populacao2==1&& comparacao_area2==1) {           //Verifica se a carta 1 venceu as duas comparações
+              } else if(comparacao_populacao1 == 1 && comparacao_area1 == 1||comparacao_populacao2 == 1 && comparacao_area2 == 1) {           //Verifica se a carta 1 venceu as duas comparações
               printf("Carta1 (%s)venceu!",cidade1);
-             } else {                                                                //Se não
+              } else {                                                             //Se não
                   printf("Carta 2 (%s) venceu!",cidade2); }                       //Mostra que Carta 2 venceu                                           
 
               
         
 
 
-             } if(escolha1==1 && escolha2==3|| escolha1==3 && escolha2==1){                  //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 3 ou 3 e 1  
+             } if(escolha1==1 && escolha2==3|| escolha1==3 && escolha2==1){                       //Função que verifica se escolha1 e escolha 2 forem respectivamente 1 e 3 ou 3 e 1  
               soma3= populacao1 +(int)PIB1;                                                      //se sim soma populacao1 a PIB1 convertendo PIB1 para int
               soma4= populacao2+(int)PIB2;                                                      // soma populacao2 e PIB2 convertendo PIB2 para int
               printf("Soma dos atributos da Carta 1:%d\n",soma3);                              // Mostra a soma dos atributos da carta 1
